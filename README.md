@@ -1,7 +1,7 @@
 # SNOMED-CT Absent Hybrid-Reasoner - EXPERIMENTAL
 
 ## Status
-An **experimental** OWL Reasoner to support discussions and content investigations within the Context Management working group.
+An unofficial **experimental** OWL Reasoner to support discussions and content investigations within the Context Management working group.
 
 ## What does it do?
 It changes the subsumption behaviour between concepts within the "Situation with explicit context (situation)" hierarchy 
