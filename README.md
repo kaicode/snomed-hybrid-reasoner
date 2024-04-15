@@ -28,5 +28,11 @@ There are two modules:
 - A Protégé Plugin
     - Can be used to experiment with ontologies directly in the Protégé desktop application
 
+### To use the OWL Reasoner
 To use the OWL Reasoner with the SNOMED OWL Toolkit include the snomed-absent-reasoner on the classpath and 
 set the `reasonerFactoryClassName` parameter to `org.snomed.reasoner.SnomedAbsentOWLReasonerFactory`.
+
+### To use the Protégé plugin
+Copy the snomed-absent-reasoner-protege-plugin to the Protégé plugins folder and restart Protégé. 
+
+On MacOS the plugins folder is `/Applications/Protégé.app/Contents/plugins/`.
