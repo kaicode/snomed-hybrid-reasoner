@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+    <extension id="snomedabsent.reasoner.factory" point="org.protege.editor.owl.inference_reasonerfactory">
+        <name value="SNOMED Absent (Hybrid) 1.0.0-beta"/>
+        <label value="SNOMED Absent (Hybrid) 1.0.0-beta"/>
+        <class value="org.snomed.reasoner.protege.SnomedAbsentProtegeReasonerFactory"/>
+    </extension>
+
+    <extension id="snomedabsent.init" point="org.protege.editor.core.application.EditorKitHook">
+        <class value="org.semanticweb.elk.protege.ElkProtegePluginInstance"/>
+        <editorKitId value="OWLEditorKit"/>
+    </extension>
+
+</plugin>
